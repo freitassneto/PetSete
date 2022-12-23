@@ -1,0 +1,135 @@
+.main-login{
+    margin: 0 auto;
+    background: var(--color-secondary);
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+}
+.section-login{
+    padding: 20px;
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.div-section{
+    width: 100%;
+}
+
+.div-logomb{
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.logo-mobile{
+    margin: 0 auto;
+    width: 200px;
+}
+
+.forms-login{
+    width: 100%;
+}
+
+.div-redirection > a{
+    text-decoration: none;
+    color: var(--color-white);
+}
+.div-redirection > p{
+    color: var(--color-main);
+    font-weight: var(----weigth-1);
+}
+
+.img-desktop{
+    display: none;
+}
+
+
+@media (min-width:800px) {
+
+    .body{
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .main-login{
+    max-width: 1000px;
+    max-height: 600px;
+    margin: 0 auto;
+    background: var(--color-secondary);
+    display: flex;
+    box-shadow:var(--box-shadow);
+    border-radius: var(--radius-16);
+    }
+
+    .logo-mobile, .seta-return{
+        display: none;
+    }
+
+    .img-desktop{
+        display: flex;
+        width: 90%;
+        margin-top: 10px;
+
+    }
+    .logo-desktop{
+        width: 60%;
+    }
+    #section-title{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 18px;
+        align-items: center;
+        background: var(--color-secondary);
+        border-radius: var(--radius-4);
+        padding: 20px;
+        min-width: 50%;
+    }
+    .section-login{
+        background: var(--color-white);
+        min-width: 50%;  
+        border-radius: 0px 10px 10px 0px;
+    }
+    
+    .inputs-login{
+        border: var(--border-2) var(--color-main);
+        background-color: var(--color-white);
+        width: 80%;
+    }
+    .inputs-login:hover{
+        border: var(--border-2) var(--color-main);
+        background-color: var(--color-white);
+        color: var(--color-black);
+    }
+    
+
+    .slogan-login{
+        color: var(--color-white);
+        text-align: center;
+    }
+    .btn-redirectHome{
+        color: var(--color-main);
+        border: var(--border-2) var(--color-main);
+        padding: 10px;
+        text-decoration: none;
+        margin-top: 5px;
+        border-radius: var(--radius-16);
+    }
+    .btn-redirectHome:hover{
+        color: var(--color-white);
+        background: var(--color-main);
+    }
+    .div-redirection > a{
+        text-decoration: none;
+        color: var(--color-main);
+        transition: ease 0.4s;
+    }
+
+}

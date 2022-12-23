@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Pet Sete - Login</title>
+    <link rel="shortcut icon" href="../imgs/FaviconPetSete.png" type="image/x-icon">
+
+    <!-- Global Styles -->
+    <link rel="stylesheet" href="../styles/globalStyles.css">
+    <link rel="stylesheet" href="../styles/displays.css">
+    <link rel="stylesheet" href="../styles/buttons.css">
+    <link rel="stylesheet" href="../styles/toast.css">
+
+
+    <!-- Local Style -->
+    <link rel="stylesheet" href="../styles/login.css">
+
+
+</head>
+
+<body class="body">
+    <main class="main-login">
+
+        <section class="none" id="section-title">
+            <img class="logo-desktop" src="../imgs/LogoPetSete.png" href="../../index.html" alt="">
+            <h4 class="slogan-login">Faça o login e encontre seu melhor amigo!</h4>
+
+            <a href="../../index.html" class="btn-redirectHome pointer">Voltar para a home</a>
+
+        </section>
+
+        <section id="section-login" class="section-login">
+            <a href="../../index.html">
+                <img class="seta-return pointer" src="../imgs/setareturn.png" alt="return-seta">
+            </a>
+            <div class="div-section flex flex-col jus-center gap18">
+                <div class="div-logomb flex al-center">
+                    <img class="logo-mobile" src="../imgs/LogoPetSete.png" alt="logoPetSete">
+                    <img class="img-desktop al-center" src="../imgs/animaisLogin.jpg" alt="">
+                </div>
+                <form action="" id="form" class="forms-login flex flex-col al-center gap18">
+                    <input class="inputs-login" id="email" type="email" name="email" placeholder="Digite seu email" required>
+                    <input class="inputs-login" id="password" type="password" name="password"
+                        placeholder="Digite sua senha aqui" required>
+                    <button id="login-button" class="button-purple pointer" type="submit" value="Enviar">Login</button>
+                </form>
+                <div class=" div-redirection flex flex-col al-center">
+                    <p>Ainda não tem conta?</p>
+                    <a class="btn-redirectHome pointer" href="./register.html">Criar uma conta</a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script type="module" src="../scripts/login.js"></script>
+</body>

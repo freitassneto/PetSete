@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KenziePets - Profile</title>
+    <link rel="shortcut icon" href="../imgs/FaviconPetSete.png" type="image/x-icon">
+    <link rel="stylesheet" href="../styles/toast.css">
+    <link rel="stylesheet" href="../styles/buttons.css">
+    <link rel="stylesheet" href="../styles/modal.css">
+    <link rel="stylesheet" href="../styles/displays.css">
+    <link rel="stylesheet" href="../styles/footer.css">
+    <link rel="stylesheet" href="../styles/header.css">
+    <link rel="stylesheet" href="../styles/globalStyles.css">
+    <link rel="stylesheet" href="../styles/profile.css">
+</head>
+<body>
+    <header class="flex al-center jus-center">
+        <div class="flex al-center jus-between">
+            <img class="logo-header" src="../imgs/LogoPetSete.png" alt="logo" name="logo petsete">
+            <div>
+                <button class="button-white-purple button-home pointer" id="homeBtn">Home</button>
+                <button class="button-purple pointer" id="logoutBtn">Logout</button>
+            </div>
+        </div>
+    </header>
+    <main class="profile-main">
+        <section class="profile-section-1">
+            <div class="section-1-userAvatar">
+                <div class="section-1-backgroundColor-1"></div>
+                <div class="section-1-backgroundColor-2"></div>
+                <img class="user-img" src="../imgs/imgnotfound.jpg" alt="user avatar">
+            </div> 
+            <div class="container 
+             section-1-user-data flex flex-col">
+                 <div class="section-1-user-description flex flex-col">
+                    <h2 class="data-user-title al-self-center">Dados pessoais</h2>
+                    <p id="userName" class="data-paragraph"><span class="data-span"></span></p>
+                    <p id="userEmail" class="data-paragraph"><span class="data-span"></span></p>
+                </div>
+                <div class="section-1_user-buttons flex jus-center">
+                    <button id="editInfoButton" class="section-1-user-button-Edit button-purple pointer">Atualizar informações</button>
+                    <button id="deleteAccountButton" class="button-red-delete pointer">Deletar conta</button>
+                </div>
+            </div>
+        </section>
+        <section class="container profile-section-2 flex flex-col">
+            <button id="newPetButton" class="button-green pointer">Cadastrar novo pet</button>
+            <ul id="ulFull" class="profile-cards-full-list flex flex-col wrap">
+            </ul>
+        </section>
+    </main>
+    <footer class="footer-profile flex al-center jus-center">
+        <p>PetSete | Todos os direitos reservados | <a href="./about.html">PetSete Team</a></p>
+    </footer>
+    <script type="module" src="../scripts/profile.js"></script>
+</body>
+</html>

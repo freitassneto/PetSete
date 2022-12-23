@@ -1,0 +1,133 @@
+.pointer{
+    cursor: pointer;
+}
+
+.button-primary {
+    padding: 4px 24px;
+    border-radius: var(--radius-16);
+    color: var(--color-white);
+    background-color: var(--color-main);
+    border: 1px solid var(--color-white);
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.button-white-purple {
+    padding: 4px 24px;
+    border-radius: var(--radius-16);
+    color: var(--color-secondary);
+    background-color: var(--color-white);
+    border: 1px solid var(--color-secondary);
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.button-purple {
+    padding: 4px 24px;
+    border-radius: var(--radius-16);
+    color: var(--color-white);
+    background-color: var(--color-secondary);
+    border: 1px solid var(--color-white);
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.button-purple:hover{
+    background-color: var(--color-main);
+    transition: ease 0.4s;
+}
+
+.button-white-red {
+    padding: 4px 24px;
+    border-radius: var(--radius-16);
+    color: var(--color-white);
+    background-color: var(--color-red);
+    border: 1px solid var(--color-white);
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.button-white-red:hover {
+    color: var(--color-secondary);
+    background-color: var(--color-white);
+    border: 1px solid var(--color-red);
+}
+
+.button-green{
+    padding: 4px 24px;
+    border-radius: var(--radius-16);
+    color: var(--color-white);
+    background-color: var(--color-main);
+    border: 1px solid var(--color-main);
+    font-size: var(--text-4);
+    font-weight: var(--weigth-2);
+    margin-bottom: 42px;
+    max-width: 180px;
+}
+
+.button-green:hover{
+    background-color: var(--color-white);
+    color: var(--color-main);
+    transition: ease 0.4s;
+}
+
+.button-red-delete{
+    padding: 4px 24px;
+    border-radius: var(--radius-16);
+    color: var(--color-main);
+    background-color: var(--color-white);
+    border: 1px solid var(--color-main);
+    font-size: var(--text-4);
+    font-weight: var(--weigth-2);
+}
+
+.button-red-delete:hover{
+    background-color: var(--color-main);
+    color: var(--color-white);
+    transition: ease 0.4s;
+}
+
+
+
+/* Inputs e Buttons Login */
+
+.seta-return{
+    position: absolute;
+    top: 30px;
+    left: 20px;
+    width: 30px;
+}
+
+.inputs-login{
+    padding: 20px;
+    width: 80%;
+    height: 44px;
+    border-radius: var(--radius-4);
+    outline: none;
+    border: var(--border-2) var(--color-main);
+    background-color: var(--color-white);
+    color: var(--color-black);
+    font-size: var(--text-4);
+    
+}
+.inputs-login::-webkit-input-placeholder{
+    color: var(--color-black);
+    font-size: var(--text-4);
+
+}
+
+#login-button{
+    width: 80%;
+    height: 44px;
+    
+}
+
+#login-button:hover{
+        border: transparent;
+        background-color: var(--color-main);
+        color: var(--color-white);
+        transition: ease 0.4s;
+        
+}
+
+
