@@ -1,4 +1,5 @@
 # PetSete
+![02 Capa PetSete GitHub  (1280 × 640 px)](https://user-images.githubusercontent.com/109801407/209677690-578b9d7e-921f-4086-9253-90ae4f5cf6f8.jpg)
 
 O PetSete consistiu em um trabalho em equipe, elaborado por Fernanda Manfrini, Lucas Rodrigues, Lucca Haddad e eu.
 
